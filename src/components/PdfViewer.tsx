@@ -17,7 +17,7 @@ export default function PdfViewer({ url }: Props) {
   return (
     <div style={{ height: "85vh", border: "1px solid #e5e7eb", borderRadius: 8, overflow: "hidden" }}>
       {/* PDF.js worker (use a fixed version to avoid CDN changes) */}
-      <Worker workerUrl="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js">
+     <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
         <Viewer fileUrl={url} plugins={[defaultLayout]} />
       </Worker>
     </div>
