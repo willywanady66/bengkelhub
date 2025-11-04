@@ -26,6 +26,10 @@ export default function RootLayout({
           <meta property="og:image" content="https://bengkelhubblob.blob.core.windows.net/internal-documents/bengkelku_logo.png" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
+          <meta property="og:url" content="https://bengkelhub.id/"></meta>
+          <meta property="og:type" content="website"></meta>
+          <meta property="og:title" content="BengkelHub"></meta>
+          <meta property="og:description" content="Tempat untuk segala kebutuhan kendaraan Anda! Menghubungkan Anda dengan bengkel terdekat dan pemasok terbaik."></meta>
         </>
       </head>
       <body className={inter.className}>
