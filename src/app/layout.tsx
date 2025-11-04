@@ -21,6 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <>
+          <meta property="og:image" content="https://bengkelhubblob.blob.core.windows.net/internal-documents/bengkelhub_logo_s8P_icon.ico" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+        </>
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class">
           <Navbar />
