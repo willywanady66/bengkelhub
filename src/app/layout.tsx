@@ -30,6 +30,7 @@ export default function RootLayout({
           <meta property="og:type" content="website"></meta>
           <meta property="og:title" content="BengkelHub"></meta>
           <meta property="og:description" content="Tempat untuk segala kebutuhan kendaraan Anda! Menghubungkan Anda dengan bengkel terdekat dan pemasok terbaik."></meta>
+          <meta property="fb:appid" content="1868679220323044"></meta>
         </>
       </head>
       <body className={inter.className}>
